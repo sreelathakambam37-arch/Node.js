@@ -33,7 +33,13 @@ app.put('/update/:id', async (req,res)=>{
     catch(err){
         console.log(err.message);
     }
+<<<<<<< HEAD
 });
+=======
+})
+
+app.listen(3000,()=>console.log('server running on http://127.0.0.1:3000......'))
+>>>>>>> 63e8fbc253f368de9637ecbc778ea2e4e7818e10
 
 
 app.listen(3000,()=>console.log('server running on http://127.0.0.1:3000.......'))
